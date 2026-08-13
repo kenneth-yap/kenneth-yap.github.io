@@ -52,7 +52,7 @@ export const achievements = [
       },
       {
         title: "Innovate UK Grant: Digital Hazard Log",
-        description: "Project team delivering a £100,000 First-of-a-Kind (FOAK) project under Innovate UK’s Contracts for Innovation programme.",
+        description: "2-person team delivering a £100,000 First-of-a-Kind (FOAK) project under Innovate UK’s Contracts for Innovation programme.",
         icon: "🚆"
       },
       { 
