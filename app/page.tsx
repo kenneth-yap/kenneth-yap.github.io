@@ -79,7 +79,7 @@ export default function Home() {
           >
             <h2 className="text-2xl font-bold text-center mb-6">Education</h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            <div className="flex overflow-x-auto pb-2 hide-scrollbar gap-4 sm:grid sm:overflow-visible sm:pb-0 sm:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto">
               {education.map((item, index) => (
                 <motion.div
                   key={index}
@@ -87,7 +87,7 @@ export default function Home() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4, delay: index * 0.08 }}
                   viewport={{ once: true }}
-                  className="bg-white rounded-lg p-4 border border-stone-200 shadow-sm hover:border-amber-400 hover:shadow-md transition-all duration-300"
+                  className="w-[260px] shrink-0 sm:w-auto bg-white rounded-lg p-4 border border-stone-200 shadow-sm hover:border-amber-400 hover:shadow-md transition-all duration-300"
                 >
                   <div className="inline-block px-2 py-0.5 mb-2 text-xs font-semibold text-amber-800 bg-amber-100 rounded-full">
                     {item.year}
@@ -110,6 +110,9 @@ export default function Home() {
                 </motion.div>
               ))}
             </div>
+            <div className="text-center mt-2 text-stone-400 text-xs sm:hidden">
+              Swipe to explore →
+            </div>
           </motion.div>
         </section>
 
@@ -128,7 +131,7 @@ export default function Home() {
 
             {/* Tab bar */}
             <div className="max-w-5xl mx-auto mb-4">
-              <div className="flex gap-2 overflow-x-auto pb-2 hide-scrollbar justify-center">
+              <div className="flex gap-2 overflow-x-auto pb-2 hide-scrollbar md:justify-center">
                 {tabs.map((tab) => (
                   <button
                     key={tab}
