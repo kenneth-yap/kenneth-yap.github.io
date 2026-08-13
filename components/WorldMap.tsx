@@ -60,31 +60,31 @@ export default function WorldMap() {
         {({ geographies }: { geographies: any[] })  =>
             geographies.map((geo: any) => {
               const isVisited = visitedCountries.includes(geo.id);
-              
+
               return (
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
-                  fill={isVisited ? '#a855f7' : '#1e293b'} // Purple for visited, dark for unvisited
-                  stroke="#475569"
+                  fill={isVisited ? '#B45309' : '#E7E5E4'} // Amber for visited, warm light gray for unvisited
+                  stroke="#A8A29E"
                   strokeWidth={0.5}
                   style={{
                     default: {
-                      fill: isVisited ? '#a855f7' : '#1e293b',
-                      stroke: '#475569',
+                      fill: isVisited ? '#B45309' : '#E7E5E4',
+                      stroke: '#A8A29E',
                       strokeWidth: 0.5,
                       outline: 'none',
                     },
                     hover: {
-                      fill: isVisited ? '#c084fc' : '#334155',
-                      stroke: '#60a5fa',
+                      fill: isVisited ? '#92400E' : '#D6D3D1',
+                      stroke: '#B45309',
                       strokeWidth: 1,
                       outline: 'none',
                       cursor: 'pointer',
                     },
                     pressed: {
-                      fill: isVisited ? '#a855f7' : '#1e293b',
-                      stroke: '#475569',
+                      fill: isVisited ? '#B45309' : '#E7E5E4',
+                      stroke: '#A8A29E',
                       strokeWidth: 0.5,
                       outline: 'none',
                     },
@@ -95,13 +95,13 @@ export default function WorldMap() {
           }
         </Geographies>
       </ComposableMap>
-      <div className="text-center mt-4 text-gray-400 text-sm">
+      <div className="text-center mt-4 text-stone-500 text-sm">
         <span className="inline-flex items-center mr-4">
-          <span className="w-4 h-4 bg-purple-500 rounded-sm mr-2"></span>
+          <span className="w-4 h-4 bg-amber-700 rounded-sm mr-2"></span>
           Visited
         </span>
         <span className="inline-flex items-center">
-          <span className="w-4 h-4 bg-slate-800 rounded-sm mr-2"></span>
+          <span className="w-4 h-4 bg-stone-200 rounded-sm mr-2"></span>
           On my way
         </span>
       </div>

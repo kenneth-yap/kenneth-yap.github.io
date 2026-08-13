@@ -5,33 +5,68 @@ export const education = [
     degree: "Doctor of Philosophy (PhD) in Engineering",
     institution: "University of Cambridge",
     details: "Cyber-Physical Systems",
-    highlights: "Full-ride EPSRC CDT Scholarship | Published 2 Conference Papers"
+    highlights: "Full-ride EPSRC CDT Scholarship | Published 3 Conference Proceedings"
   },
   {
     year: "2023 - 2024",
     degree: "Master of Research (MRes) in Future Infrastructure & Built Environment",
     institution: "University of Cambridge",
     details: "Computational Frozen Soil Mechanics",
-    highlights: "Full-ride EPSRC CDT Scholarship | Distinction in MRes Thesis & Mini Project"
+    highlights: "Full-ride EPSRC CDT Scholarship | Distinction in MRes Thesis & Project"
   },
   {
     year: "2023 - 2025",
     degree: "Master of Science (MSc) in Financial Engineering",
     institution: "WorldQuant University",
-    details: "Quantitative Finance, Risk & Portfolio Management",
+    details: "Quantitative Risk & Portfolio Management",
     highlights: "88%, Tuition-free Admission"
   },
   {
     year: "2019 - 2023",
     degree: "Master of Engineering (MEng) in Civil Engineering",
     institution: "Imperial College London & ETH Zürich",
-    details: "Geotechnical & Transportation Engineering | Swiss-European Mobility Programme",
+    details: "Computational Engineering Analysis | Swiss-European Mobility Programme",
     highlights: "First Class Honours | 7 Prizes/Distinctions"
   },
 ];
 
 // Year-by-year achievements (reverse chronological - most recent first)
 export const achievements = [
+  {
+    year: "2026",
+    items: [
+      {
+        title: "Undergraduate Supervisor of the Year",
+        description: "1 of 28 nominees across the University of Cambridge for outstanding undergraduate supervision",
+        icon: "🏆"
+      },
+      {
+        title: "beVisioneers: The Mercedes-Benz Fellowship",
+        description: "1 of 250 fellows across 24 countries. Funded by Mercedes-Benz; delivered by The DO School ",
+        icon: "🌱"
+      },
+      {
+        title: "AI Engineer, AutomateX",
+        description: "Started a new role as an AI Engineer alongside PhD research. Hire #1",
+        icon: "💼"
+      },
+      {
+        title: "Innovate UK Grant: Digital Hazard Log",
+        description: "Project team delivering a £100,000 First-of-a-Kind (FOAK) project under Innovate UK’s Contracts for Innovation programme.",
+        icon: "🚆"
+      },
+      { 
+        title: "16th International Workshop on Service-Oriented, Holonic and Multi-Agent Manufacturing Systems for Industry of the Future (SOHOMA2026)", 
+        description: "Research paper & presentation",
+        icon: "📊"
+      },
+      {
+        title: "Teaching in Japan",
+        description: "Taught and travelled across 11 prefectures in Japan over the course of a month.",
+        icon: "🎌"
+      },
+    ]
+  },
   {
     year: "2025",
     items: [
@@ -92,7 +127,7 @@ export const achievements = [
       },
       { 
         title: "The Imperial Award", 
-        description: "For going above and beyond academic expectations.",
+        description: "For going above and beyond academic expectations at Imperial College London.",
         icon: "🏆"
       },
       { 
@@ -108,7 +143,7 @@ export const achievements = [
     items: [
       { 
         title: "Peter Fraenkel Prize", 
-        description: "Best Group Design Project",
+        description: "Best Group Design Project at the Department of Civil and Environmental Engineering",
         icon: "🏆"
       },
       { 
@@ -133,7 +168,7 @@ export const achievements = [
     items: [
       { 
         title: "Samsung Solve for Tomorrow", 
-        description: "National Finalist - Education Category",
+        description: "National Finalist (UK) - Education Category",
         icon: "💡"
       },
       { 

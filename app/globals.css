@@ -3,15 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #ffffff;
-    --foreground: #171717;
-  }
+  --background: #ffffff;
+  --foreground: #1c1917; /* stone-900, matches the site's warm-neutral text color */
 }
 
 body {

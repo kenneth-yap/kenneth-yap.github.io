@@ -25,9 +25,9 @@ export default function AchievementYear({ year, items, index }: AchievementYearP
     >
       {/* Year header */}
       <div className="flex items-center mb-6">
-        <div className="text-4xl font-bold text-blue-400 mr-4">{year}</div>
-        <div className="flex-grow h-0.5 bg-gradient-to-r from-blue-500/50 to-transparent"></div>
-        <div className="ml-4 px-3 py-1 bg-blue-500/20 rounded-full text-sm text-blue-300">
+        <div className="text-4xl font-bold text-sky-600 mr-4">{year}</div>
+        <div className="flex-grow h-0.5 bg-gradient-to-r from-sky-400/60 to-transparent"></div>
+        <div className="ml-4 px-3 py-1 bg-sky-100 rounded-full text-sm text-sky-700">
           {items.length} {items.length === 1 ? 'Achievement' : 'Achievements'}
         </div>
       </div>
@@ -41,17 +41,17 @@ export default function AchievementYear({ year, items, index }: AchievementYearP
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.3, delay: i * 0.1 }}
             viewport={{ once: true }}
-            className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 border border-slate-700/50 hover:border-blue-500/50 hover:bg-slate-800 hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300 group"
+            className="bg-white rounded-lg p-4 border border-slate-200 shadow-sm hover:border-sky-400 hover:shadow-md transition-all duration-300 group"
           >
             <div className="flex items-start gap-3">
               <div className="text-2xl flex-shrink-0 group-hover:scale-110 transition-transform">
                 {item.icon}
               </div>
               <div className="flex-grow min-w-0">
-                <h4 className="font-semibold text-white mb-1 leading-tight">
+                <h4 className="font-semibold text-slate-900 mb-1 leading-tight">
                   {item.title}
                 </h4>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-slate-500 leading-relaxed">
                   {item.description}
                 </p>
               </div>
