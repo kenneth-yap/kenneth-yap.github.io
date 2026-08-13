@@ -50,20 +50,20 @@ export default function Home() {
               Kenneth Yap
             </h1>
             <h2 className="text-lg md:text-xl text-stone-600 mb-1">
-              Doctoral Scholar @ University of Cambridge
+              PhD @ Cambridge | AI Engineer @ AutomateX
             </h2>
             <p className="text-xs text-stone-400 tracking-wide mb-6">
               MRes(Cantab) &middot; MEng(Hons) &middot; MScFE &middot; AFHEA &middot; ACGI
             </p>
             <p className="text-base text-stone-500 leading-relaxed max-w-2xl mx-auto">
               Kenneth is a PhD Scholar at the University of Cambridge. His research explores how AI
-              agents interface with different digital twins and databases within manufacturing enviornments. He is affiliated with Queens&apos; College, the EPSRC FIBE2
+              agents interface with digital twins and databases within manufacturing enviornments. He is affiliated with Queens&apos; College, the EPSRC FIBE2
               CDT, and the Distributed Information &amp; Automation Laboratory (DIAL) at the Institute for
               Manufacturing.
             </p>
             <p className="text-base text-stone-500 leading-relaxed max-w-2xl mx-auto mt-3">
               He has lived and worked in six countries across four continents: the UK, Switzerland, Japan, Malaysia,
-              Ethiopia, and Australia. That global experience shapes how he approaches problem-solving,
+              Ethiopia, and Australia. A global experience shapes his approach to problem-solving,
               scientific communication, and group teaching.
             </p>
           </motion.div>
@@ -123,7 +123,7 @@ export default function Home() {
           >
             <h2 className="text-2xl font-bold text-center mb-2">Achievements Timeline</h2>
             <p className="text-center text-stone-400 text-sm mb-6">
-              6 Years &middot; 20+ Achievements &middot; 10+ Awards &middot; 3 Conferences
+              6 Years &middot; 25+ Achievements &middot; 10+ Awards &middot; 3 Conferences
             </p>
 
             {/* Tab bar */}
