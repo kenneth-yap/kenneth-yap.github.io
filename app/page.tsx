@@ -64,7 +64,7 @@ export default function Home() {
             <p className="text-base text-stone-500 leading-relaxed max-w-2xl mx-auto mt-3">
               He has lived and worked in six countries across four continents: the UK, Switzerland, Japan, Malaysia,
               Ethiopia, and Australia. A global experience shapes his approach to problem-solving,
-              scientific communication, and group teaching.
+              scientific communication, and teaching.
             </p>
           </motion.div>
         </section>
