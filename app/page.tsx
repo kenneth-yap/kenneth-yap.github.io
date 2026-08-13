@@ -57,7 +57,7 @@ export default function Home() {
             </p>
             <p className="text-base text-stone-500 leading-relaxed max-w-2xl mx-auto">
               Kenneth is a PhD Scholar at the University of Cambridge. His research explores how AI
-              agents interface with digital twins and databases within manufacturing enviornments. He is affiliated with Queens&apos; College, the EPSRC FIBE2
+              agents interface with digital twins and databases within manufacturing environments. He is affiliated with Queens&apos; College, the EPSRC FIBE2
               CDT, and the Distributed Information &amp; Automation Laboratory (DIAL) at the Institute for
               Manufacturing.
             </p>
