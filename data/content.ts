@@ -50,11 +50,11 @@ export const achievements = [
         description: "Started a new role as an AI Engineer alongside PhD research. Hire #1",
         icon: "💼"
       },
-      {
-        title: "Innovate UK Grant: Digital Hazard Log",
-        description: "2-person team delivering a £100,000 First-of-a-Kind (FOAK) project under Innovate UK’s Contracts for Innovation programme.",
-        icon: "🚆"
-      },
+      //{
+      //  title: "Innovate UK Grant: Digital Hazard Log",
+      //  description: "2-person team delivering a £100,000 First-of-a-Kind (FOAK) project under Innovate UK’s Contracts for Innovation programme.",
+      //  icon: "🚆"
+      //},
       { 
         title: "16th International Workshop on Service-Oriented, Holonic and Multi-Agent Manufacturing Systems for Industry of the Future (SOHOMA2026)", 
         description: "Research paper & presentation",
